@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9447B651178DE301547F84DB518DEFADD0B54BEE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "9447B651178DE301547F84DB518DEFADD0B54BEE" : 0,
+    "AB2DFBEEBDF255F1B4A5EAF84A9E7CB1C0FD0228" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "EA440849-63E0-4A6F-B0CD-FBCDFB588B63",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "9447B651178DE301547F84DB518DEFADD0B54BEE" : "Shy7lo\/",
+    "AB2DFBEEBDF255F1B4A5EAF84A9E7CB1C0FD0228" : "Shy7lo\/Shy7lo\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Shy7lo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Shy7lo.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tribitinfotech\/Shy7lo.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9447B651178DE301547F84DB518DEFADD0B54BEE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/tribitinfotech\/Shy7lo",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "AB2DFBEEBDF255F1B4A5EAF84A9E7CB1C0FD0228"
+    }
+  ]
+}
