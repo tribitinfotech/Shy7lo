@@ -104,6 +104,8 @@
 		24E3DED51D720BB800707F69 /* 640-x-1136.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E3DE7A1D720BB800707F69 /* 640-x-1136.png */; };
 		24E3DED61D720BB800707F69 /* 640-x-960.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E3DE7B1D720BB800707F69 /* 640-x-960.png */; };
 		24E3DED71D720BB800707F69 /* 750-x-1334.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E3DE7C1D720BB800707F69 /* 750-x-1334.png */; };
+		24E3DED91D72106400707F69 /* 768-x-1024.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E3DED81D72106400707F69 /* 768-x-1024.png */; };
+		24E3DEDB1D72108500707F69 /* 1536-x-2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 24E3DEDA1D72108500707F69 /* 1536-x-2048.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -206,6 +208,8 @@
 		24E3DE7A1D720BB800707F69 /* 640-x-1136.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "640-x-1136.png"; sourceTree = "<group>"; };
 		24E3DE7B1D720BB800707F69 /* 640-x-960.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "640-x-960.png"; sourceTree = "<group>"; };
 		24E3DE7C1D720BB800707F69 /* 750-x-1334.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "750-x-1334.png"; sourceTree = "<group>"; };
+		24E3DED81D72106400707F69 /* 768-x-1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "768-x-1024.png"; sourceTree = "<group>"; };
+		24E3DEDA1D72108500707F69 /* 1536-x-2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1536-x-2048.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -472,6 +476,8 @@
 				24E3DE7A1D720BB800707F69 /* 640-x-1136.png */,
 				24E3DE7B1D720BB800707F69 /* 640-x-960.png */,
 				24E3DE7C1D720BB800707F69 /* 750-x-1334.png */,
+				24E3DED81D72106400707F69 /* 768-x-1024.png */,
+				24E3DEDA1D72108500707F69 /* 1536-x-2048.png */,
 			);
 			path = Splash;
 			sourceTree = "<group>";
@@ -551,10 +557,12 @@
 				24E3DED11D720BB800707F69 /* saudi_aerbia@3x.png in Resources */,
 				24E3DECC1D720BB800707F69 /* landing_bottom@3x.png in Resources */,
 				24E3DEA11D720BB800707F69 /* Icon-App-76x76@1x.png in Resources */,
+				24E3DEDB1D72108500707F69 /* 1536-x-2048.png in Resources */,
 				24E3DEC51D720BB800707F69 /* bahrin@3x.png in Resources */,
 				24E3DE111D720B8B00707F69 /* LandingViewController.xib in Resources */,
 				24E3DE971D720BB800707F69 /* Contents.json in Resources */,
 				24BF62E01D68D25D00BB8164 /* Assets.xcassets in Resources */,
+				24E3DED91D72106400707F69 /* 768-x-1024.png in Resources */,
 				24E3DE9C1D720BB800707F69 /* Icon-App-40x40@2x.png in Resources */,
 				24E3DEC91D720BB800707F69 /* btn_clack@3x.png in Resources */,
 				24E3DE7F1D720BB800707F69 /* DroidNaskh-Bold.ttf in Resources */,

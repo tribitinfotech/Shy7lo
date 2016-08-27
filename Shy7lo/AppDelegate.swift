@@ -12,9 +12,32 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    
+    var nav:UINavigationController?
+
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
+        // Override point for customization after application launch.
+        self.window = UIWindow(frame:UIScreen.mainScreen().bounds)
+        
+        let objLand:UIViewController?
+        objLand = LandingViewController(nibName: "LandingViewController", bundle:nil)
+        
+        self.nav = UINavigationController(rootViewController: objLand!)
+        
+        self.nav?.navigationBarHidden = true
+        
+        self.nav = UINavigationController(rootViewController: objLand!)
+        
+        self.nav?.navigationBarHidden = true
+        
+        UIApplication.sharedApplication().statusBarStyle = .LightContent
+        
+        self.window?.rootViewController = self.nav
+        
+        self.window?.makeKeyAndVisible()
+        
         // Override point for customization after application launch.
         return true
     }
