@@ -12,15 +12,37 @@ class LandingViewController: UIViewController {
 
     //MARK:- View life cycle
     
+    @IBOutlet weak var runkeeperSwitch4: DGRunkeeperSwitch!
+    
+    @IBOutlet weak var btnKuwait: UIButton!
+    @IBOutlet weak var btnOman: UIButton!
+    @IBOutlet weak var btnDubai: UIButton!
+    @IBOutlet weak var btnSaudiArabia: UIButton!
+    @IBOutlet weak var btnQatar: UIButton!
+    @IBOutlet weak var btnBahrin: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         print("sdasd asd sdadas")
         
+        if let runkeeperSwitch4 = runkeeperSwitch4 {
+            runkeeperSwitch4.titles = ["English", "Arabic"]
+            runkeeperSwitch4.backgroundColor = UIColor.blackColor()
+            runkeeperSwitch4.selectedBackgroundColor = .whiteColor()
+            runkeeperSwitch4.titleColor = .whiteColor()
+            runkeeperSwitch4.selectedTitleColor = UIColor.blackColor()
+            runkeeperSwitch4.titleFont = UIFont(name: "Raleway-SemiBold", size: 14.0)
+        }
+        
         // Do any additional setup after loading the view.
     }
 
     //MARK:- Action zones
+    @IBAction func switchValueDidChange(sender: AnyObject)
+    {
+        print(sender.selectedIndex)
+    }
     
     @IBAction func btnArabicAction(sender: AnyObject)
     {
@@ -50,7 +72,23 @@ class LandingViewController: UIViewController {
     }
     @IBAction func btnLanguageAction(sender: AnyObject)
     {
+        self.btnOman.selected = false
+        self.btnDubai.selected = false
+        self.btnQatar.selected = false
+        self.btnBahrin.selected = false
+        self.btnKuwait.selected = false
+        self.btnSaudiArabia.selected = false
+        
         let btn:UIButton = sender as! UIButton
+        
+        if btn.selected == true {
+            
+            btn.selected = false
+        }
+        else
+        {
+            btn.selected = true
+        }
         
     }
     

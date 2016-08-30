@@ -7,9 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2495FCE91D74C7DE0093387B /* backGround@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2495FCE81D74C7DE0093387B /* backGround@3x.png */; };
+		2495FCEB1D74C7EC0093387B /* backGround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2495FCEA1D74C7EC0093387B /* backGround@2x.png */; };
+		2495FCED1D74C7FB0093387B /* backGround.png in Resources */ = {isa = PBXBuildFile; fileRef = 2495FCEC1D74C7FB0093387B /* backGround.png */; };
 		24BF62D91D68D25D00BB8164 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24BF62D81D68D25D00BB8164 /* AppDelegate.swift */; };
 		24BF62E01D68D25D00BB8164 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24BF62DF1D68D25D00BB8164 /* Assets.xcassets */; };
 		24BF62E31D68D25D00BB8164 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24BF62E11D68D25D00BB8164 /* LaunchScreen.storyboard */; };
+		24DC61061D75F18A00AE9DB2 /* DGRunkeeperSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24DC61051D75F18A00AE9DB2 /* DGRunkeeperSwitch.swift */; };
+		24DC610E1D7607E900AE9DB2 /* saudi_aerbia_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC610D1D7607E900AE9DB2 /* saudi_aerbia_selected@3x.png */; };
+		24DC61101D7607F000AE9DB2 /* saudi_aerbia_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC610F1D7607F000AE9DB2 /* saudi_aerbia_selected@2x.png */; };
+		24DC61121D7607F700AE9DB2 /* saudi_aerbia_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC61111D7607F700AE9DB2 /* saudi_aerbia_selected.png */; };
+		24DC61141D7608DF00AE9DB2 /* qatar_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC61131D7608DF00AE9DB2 /* qatar_selected.png */; };
+		24DC61161D7608E800AE9DB2 /* qatar_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC61151D7608E800AE9DB2 /* qatar_selected@2x.png */; };
+		24DC61181D7608F200AE9DB2 /* qatar_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC61171D7608F200AE9DB2 /* qatar_selected@3x.png */; };
+		24DC611A1D760A0E00AE9DB2 /* dubai_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC61191D760A0E00AE9DB2 /* dubai_selected.png */; };
+		24DC611C1D760A1500AE9DB2 /* dubai_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC611B1D760A1500AE9DB2 /* dubai_selected@2x.png */; };
+		24DC611E1D760A1C00AE9DB2 /* dubai_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC611D1D760A1C00AE9DB2 /* dubai_selected@3x.png */; };
+		24DC61201D760A6A00AE9DB2 /* oman_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC611F1D760A6A00AE9DB2 /* oman_selected.png */; };
+		24DC61221D760A7100AE9DB2 /* oman_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC61211D760A7100AE9DB2 /* oman_selected@2x.png */; };
+		24DC61241D760A7A00AE9DB2 /* oman_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC61231D760A7A00AE9DB2 /* oman_selected@3x.png */; };
+		24DC61261D760B3100AE9DB2 /* kuwait_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC61251D760B3100AE9DB2 /* kuwait_selected.png */; };
+		24DC61281D760B3900AE9DB2 /* kuwait_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC61271D760B3900AE9DB2 /* kuwait_selected@2x.png */; };
+		24DC612A1D760B4000AE9DB2 /* kuwait_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC61291D760B4000AE9DB2 /* kuwait_selected@3x.png */; };
+		24DC612C1D760B7500AE9DB2 /* bahrin_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC612B1D760B7500AE9DB2 /* bahrin_selected.png */; };
+		24DC612E1D760B7C00AE9DB2 /* bahrin_selected@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC612D1D760B7C00AE9DB2 /* bahrin_selected@2x.png */; };
+		24DC61301D760B8400AE9DB2 /* bahrin_selected@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 24DC612F1D760B8400AE9DB2 /* bahrin_selected@3x.png */; };
 		24E3DE101D720B8B00707F69 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24E3DE0D1D720B8B00707F69 /* LandingViewController.swift */; };
 		24E3DE111D720B8B00707F69 /* LandingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E3DE0E1D720B8B00707F69 /* LandingViewController.xib */; };
 		24E3DE121D720B8B00707F69 /* LandingViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 24E3DE0F1D720B8B00707F69 /* LandingViewController_iPad.xib */; };
@@ -109,11 +131,33 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2495FCE81D74C7DE0093387B /* backGround@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backGround@3x.png"; sourceTree = "<group>"; };
+		2495FCEA1D74C7EC0093387B /* backGround@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "backGround@2x.png"; sourceTree = "<group>"; };
+		2495FCEC1D74C7FB0093387B /* backGround.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backGround.png; sourceTree = "<group>"; };
 		24BF62D51D68D25D00BB8164 /* Shy7lo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shy7lo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24BF62D81D68D25D00BB8164 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		24BF62DF1D68D25D00BB8164 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24BF62E21D68D25D00BB8164 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24BF62E41D68D25D00BB8164 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24DC61051D75F18A00AE9DB2 /* DGRunkeeperSwitch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DGRunkeeperSwitch.swift; sourceTree = "<group>"; };
+		24DC610D1D7607E900AE9DB2 /* saudi_aerbia_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saudi_aerbia_selected@3x.png"; sourceTree = "<group>"; };
+		24DC610F1D7607F000AE9DB2 /* saudi_aerbia_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "saudi_aerbia_selected@2x.png"; sourceTree = "<group>"; };
+		24DC61111D7607F700AE9DB2 /* saudi_aerbia_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saudi_aerbia_selected.png; sourceTree = "<group>"; };
+		24DC61131D7608DF00AE9DB2 /* qatar_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qatar_selected.png; sourceTree = "<group>"; };
+		24DC61151D7608E800AE9DB2 /* qatar_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qatar_selected@2x.png"; sourceTree = "<group>"; };
+		24DC61171D7608F200AE9DB2 /* qatar_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qatar_selected@3x.png"; sourceTree = "<group>"; };
+		24DC61191D760A0E00AE9DB2 /* dubai_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = dubai_selected.png; sourceTree = "<group>"; };
+		24DC611B1D760A1500AE9DB2 /* dubai_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dubai_selected@2x.png"; sourceTree = "<group>"; };
+		24DC611D1D760A1C00AE9DB2 /* dubai_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "dubai_selected@3x.png"; sourceTree = "<group>"; };
+		24DC611F1D760A6A00AE9DB2 /* oman_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oman_selected.png; sourceTree = "<group>"; };
+		24DC61211D760A7100AE9DB2 /* oman_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oman_selected@2x.png"; sourceTree = "<group>"; };
+		24DC61231D760A7A00AE9DB2 /* oman_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "oman_selected@3x.png"; sourceTree = "<group>"; };
+		24DC61251D760B3100AE9DB2 /* kuwait_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kuwait_selected.png; sourceTree = "<group>"; };
+		24DC61271D760B3900AE9DB2 /* kuwait_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kuwait_selected@2x.png"; sourceTree = "<group>"; };
+		24DC61291D760B4000AE9DB2 /* kuwait_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "kuwait_selected@3x.png"; sourceTree = "<group>"; };
+		24DC612B1D760B7500AE9DB2 /* bahrin_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bahrin_selected.png; sourceTree = "<group>"; };
+		24DC612D1D760B7C00AE9DB2 /* bahrin_selected@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bahrin_selected@2x.png"; sourceTree = "<group>"; };
+		24DC612F1D760B8400AE9DB2 /* bahrin_selected@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bahrin_selected@3x.png"; sourceTree = "<group>"; };
 		24E3DE0D1D720B8B00707F69 /* LandingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		24E3DE0E1D720B8B00707F69 /* LandingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingViewController.xib; sourceTree = "<group>"; };
 		24E3DE0F1D720B8B00707F69 /* LandingViewController_iPad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LandingViewController_iPad.xib; sourceTree = "<group>"; };
@@ -252,6 +296,22 @@
 			path = Shy7lo;
 			sourceTree = "<group>";
 		};
+		24DC61031D75F18A00AE9DB2 /* External Library */ = {
+			isa = PBXGroup;
+			children = (
+				24DC61041D75F18A00AE9DB2 /* DGRunKeeperSwitch */,
+			);
+			path = "External Library";
+			sourceTree = "<group>";
+		};
+		24DC61041D75F18A00AE9DB2 /* DGRunKeeperSwitch */ = {
+			isa = PBXGroup;
+			children = (
+				24DC61051D75F18A00AE9DB2 /* DGRunkeeperSwitch.swift */,
+			);
+			path = DGRunKeeperSwitch;
+			sourceTree = "<group>";
+		};
 		24E3DE0B1D720B8B00707F69 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -273,6 +333,7 @@
 		24E3DE131D720BB800707F69 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				24DC61031D75F18A00AE9DB2 /* External Library */,
 				24E3DE141D720BB800707F69 /* Fonts */,
 				24E3DE311D720BB800707F69 /* icon */,
 				24E3DE461D720BB800707F69 /* Landing */,
@@ -385,6 +446,7 @@
 		24E3DE471D720BB800707F69 /* 1x */ = {
 			isa = PBXGroup;
 			children = (
+				2495FCEC1D74C7FB0093387B /* backGround.png */,
 				24E3DE481D720BB800707F69 /* bahrin.png */,
 				24E3DE491D720BB800707F69 /* bg_landing.png */,
 				24E3DE4A1D720BB800707F69 /* bg_landing_pop.png */,
@@ -399,6 +461,12 @@
 				24E3DE531D720BB800707F69 /* right_arrow.png */,
 				24E3DE541D720BB800707F69 /* saudi_aerbia.png */,
 				24E3DE551D720BB800707F69 /* seprator.png */,
+				24DC61111D7607F700AE9DB2 /* saudi_aerbia_selected.png */,
+				24DC61131D7608DF00AE9DB2 /* qatar_selected.png */,
+				24DC61191D760A0E00AE9DB2 /* dubai_selected.png */,
+				24DC611F1D760A6A00AE9DB2 /* oman_selected.png */,
+				24DC61251D760B3100AE9DB2 /* kuwait_selected.png */,
+				24DC612B1D760B7500AE9DB2 /* bahrin_selected.png */,
 			);
 			path = 1x;
 			sourceTree = "<group>";
@@ -406,6 +474,12 @@
 		24E3DE561D720BB800707F69 /* 2x */ = {
 			isa = PBXGroup;
 			children = (
+				24DC61271D760B3900AE9DB2 /* kuwait_selected@2x.png */,
+				24DC612D1D760B7C00AE9DB2 /* bahrin_selected@2x.png */,
+				2495FCEA1D74C7EC0093387B /* backGround@2x.png */,
+				24DC61211D760A7100AE9DB2 /* oman_selected@2x.png */,
+				24DC611B1D760A1500AE9DB2 /* dubai_selected@2x.png */,
+				24DC61151D7608E800AE9DB2 /* qatar_selected@2x.png */,
 				24E3DE571D720BB800707F69 /* bahrin@2x.png */,
 				24E3DE581D720BB800707F69 /* bg_landing@2x.png */,
 				24E3DE591D720BB800707F69 /* bg_landing_pop@2x.png */,
@@ -420,6 +494,7 @@
 				24E3DE621D720BB800707F69 /* right_arrow@2x.png */,
 				24E3DE631D720BB800707F69 /* saudi_aerbia@2x.png */,
 				24E3DE641D720BB800707F69 /* seprator@2x.png */,
+				24DC610F1D7607F000AE9DB2 /* saudi_aerbia_selected@2x.png */,
 			);
 			path = 2x;
 			sourceTree = "<group>";
@@ -427,6 +502,12 @@
 		24E3DE651D720BB800707F69 /* 3x */ = {
 			isa = PBXGroup;
 			children = (
+				24DC61291D760B4000AE9DB2 /* kuwait_selected@3x.png */,
+				24DC612F1D760B8400AE9DB2 /* bahrin_selected@3x.png */,
+				24DC61171D7608F200AE9DB2 /* qatar_selected@3x.png */,
+				24DC611D1D760A1C00AE9DB2 /* dubai_selected@3x.png */,
+				2495FCE81D74C7DE0093387B /* backGround@3x.png */,
+				24DC61231D760A7A00AE9DB2 /* oman_selected@3x.png */,
 				24E3DE661D720BB800707F69 /* bahrin@3x.png */,
 				24E3DE671D720BB800707F69 /* bg_landing@3x.png */,
 				24E3DE681D720BB800707F69 /* bg_landing_pop@3x.png */,
@@ -441,6 +522,7 @@
 				24E3DE711D720BB800707F69 /* right_arrow@3x.png */,
 				24E3DE721D720BB800707F69 /* saudi_aerbia@3x.png */,
 				24E3DE731D720BB800707F69 /* seprator@3x.png */,
+				24DC610D1D7607E900AE9DB2 /* saudi_aerbia_selected@3x.png */,
 			);
 			path = 3x;
 			sourceTree = "<group>";
@@ -543,10 +625,13 @@
 				24E3DE841D720BB800707F69 /* OFL.txt in Resources */,
 				24E3DEBF1D720BB800707F69 /* logo_arabic@2x.png in Resources */,
 				24E3DEB31D720BB800707F69 /* qatar.png in Resources */,
+				24DC61181D7608F200AE9DB2 /* qatar_selected@3x.png in Resources */,
 				24E3DE9D1D720BB800707F69 /* Icon-App-40x40@3x.png in Resources */,
 				24E3DEC21D720BB800707F69 /* right_arrow@2x.png in Resources */,
 				24E3DE801D720BB800707F69 /* DroidNaskh-Regular.ttf in Resources */,
+				24DC612E1D760B7C00AE9DB2 /* bahrin_selected@2x.png in Resources */,
 				24E3DEBD1D720BB800707F69 /* kuwait@2x.png in Resources */,
+				24DC610E1D7607E900AE9DB2 /* saudi_aerbia_selected@3x.png in Resources */,
 				24E3DEB91D720BB800707F69 /* bg_landing_pop@2x.png in Resources */,
 				24E3DECE1D720BB800707F69 /* oman@3x.png in Resources */,
 				24E3DEC01D720BB800707F69 /* oman@2x.png in Resources */,
@@ -556,20 +641,25 @@
 				24E3DEB01D720BB800707F69 /* landing_bottom.png in Resources */,
 				24E3DED11D720BB800707F69 /* saudi_aerbia@3x.png in Resources */,
 				24E3DECC1D720BB800707F69 /* landing_bottom@3x.png in Resources */,
+				24DC612C1D760B7500AE9DB2 /* bahrin_selected.png in Resources */,
 				24E3DEA11D720BB800707F69 /* Icon-App-76x76@1x.png in Resources */,
 				24E3DEDB1D72108500707F69 /* 1536-x-2048.png in Resources */,
+				24DC61241D760A7A00AE9DB2 /* oman_selected@3x.png in Resources */,
 				24E3DEC51D720BB800707F69 /* bahrin@3x.png in Resources */,
 				24E3DE111D720B8B00707F69 /* LandingViewController.xib in Resources */,
 				24E3DE971D720BB800707F69 /* Contents.json in Resources */,
 				24BF62E01D68D25D00BB8164 /* Assets.xcassets in Resources */,
 				24E3DED91D72106400707F69 /* 768-x-1024.png in Resources */,
 				24E3DE9C1D720BB800707F69 /* Icon-App-40x40@2x.png in Resources */,
+				24DC61221D760A7100AE9DB2 /* oman_selected@2x.png in Resources */,
 				24E3DEC91D720BB800707F69 /* btn_clack@3x.png in Resources */,
 				24E3DE7F1D720BB800707F69 /* DroidNaskh-Bold.ttf in Resources */,
 				24E3DED21D720BB800707F69 /* seprator@3x.png in Resources */,
 				24E3DEB21D720BB800707F69 /* oman.png in Resources */,
 				24E3DECA1D720BB800707F69 /* dubai@3x.png in Resources */,
 				24E3DEB41D720BB800707F69 /* right_arrow.png in Resources */,
+				2495FCED1D74C7FB0093387B /* backGround.png in Resources */,
+				24DC61261D760B3100AE9DB2 /* kuwait_selected.png in Resources */,
 				24E3DE961D720BB800707F69 /* Raleway-ThinItalic.ttf in Resources */,
 				24E3DE871D720BB800707F69 /* Raleway-Bold.ttf in Resources */,
 				24E3DEC11D720BB800707F69 /* qatar@2x.png in Resources */,
@@ -577,21 +667,26 @@
 				24E3DE881D720BB800707F69 /* Raleway-BoldItalic.ttf in Resources */,
 				24E3DEB51D720BB800707F69 /* saudi_aerbia.png in Resources */,
 				24E3DECB1D720BB800707F69 /* kuwait@3x.png in Resources */,
+				24DC611A1D760A0E00AE9DB2 /* dubai_selected.png in Resources */,
 				24E3DECF1D720BB800707F69 /* qatar@3x.png in Resources */,
 				24E3DE821D720BB800707F69 /* FONTLOG.txt in Resources */,
 				24E3DEC61D720BB800707F69 /* bg_landing@3x.png in Resources */,
 				24E3DEB71D720BB800707F69 /* bahrin@2x.png in Resources */,
+				24DC61161D7608E800AE9DB2 /* qatar_selected@2x.png in Resources */,
 				24E3DE9E1D720BB800707F69 /* Icon-App-60x60@1x.png in Resources */,
+				24DC61281D760B3900AE9DB2 /* kuwait_selected@2x.png in Resources */,
 				24E3DE951D720BB800707F69 /* Raleway-Thin.ttf in Resources */,
 				24E3DED01D720BB800707F69 /* right_arrow@3x.png in Resources */,
 				24E3DEAA1D720BB800707F69 /* bg_landing.png in Resources */,
 				24E3DEC81D720BB800707F69 /* bg_landing_top@3x.png in Resources */,
+				2495FCEB1D74C7EC0093387B /* backGround@2x.png in Resources */,
 				24E3DE8B1D720BB800707F69 /* Raleway-ExtraLight.ttf in Resources */,
 				24E3DED31D720BB800707F69 /* 1242-x-2208.png in Resources */,
 				24E3DEAD1D720BB800707F69 /* btn_clack.png in Resources */,
 				24E3DEBB1D720BB800707F69 /* btn_clack@2x.png in Resources */,
 				24E3DEA01D720BB800707F69 /* Icon-App-60x60@3x.png in Resources */,
 				24E3DEA71D720BB800707F69 /* iTunesArtwork@3x.png in Resources */,
+				24DC61121D7607F700AE9DB2 /* saudi_aerbia_selected.png in Resources */,
 				24E3DEA51D720BB800707F69 /* iTunesArtwork@1x.png in Resources */,
 				24E3DE901D720BB800707F69 /* Raleway-Medium.ttf in Resources */,
 				24E3DE891D720BB800707F69 /* Raleway-ExtraBold.ttf in Resources */,
@@ -600,10 +695,13 @@
 				24E3DEAB1D720BB800707F69 /* bg_landing_pop.png in Resources */,
 				24E3DEA31D720BB800707F69 /* Icon-App-76x76@3x.png in Resources */,
 				24E3DE921D720BB800707F69 /* Raleway-Regular.ttf in Resources */,
+				24DC612A1D760B4000AE9DB2 /* kuwait_selected@3x.png in Resources */,
 				24E3DE121D720B8B00707F69 /* LandingViewController_iPad.xib in Resources */,
+				24DC61201D760A6A00AE9DB2 /* oman_selected.png in Resources */,
 				24E3DED51D720BB800707F69 /* 640-x-1136.png in Resources */,
 				24E3DECD1D720BB800707F69 /* logo_arabic@3x.png in Resources */,
 				24E3DEAF1D720BB800707F69 /* kuwait.png in Resources */,
+				24DC61141D7608DF00AE9DB2 /* qatar_selected.png in Resources */,
 				24E3DE831D720BB800707F69 /* METADATA.pb in Resources */,
 				24E3DE8A1D720BB800707F69 /* Raleway-ExtraBoldItalic.ttf in Resources */,
 				24E3DEAC1D720BB800707F69 /* bg_landing_top.png in Resources */,
@@ -612,19 +710,24 @@
 				24E3DE8C1D720BB800707F69 /* Raleway-ExtraLightItalic.ttf in Resources */,
 				24E3DEA21D720BB800707F69 /* Icon-App-76x76@2x.png in Resources */,
 				24E3DED61D720BB800707F69 /* 640-x-960.png in Resources */,
+				24DC61301D760B8400AE9DB2 /* bahrin_selected@3x.png in Resources */,
+				24DC611C1D760A1500AE9DB2 /* dubai_selected@2x.png in Resources */,
 				24E3DEA41D720BB800707F69 /* Icon-App-83.5x83.5@2x.png in Resources */,
 				24E3DED71D720BB800707F69 /* 750-x-1334.png in Resources */,
 				24E3DE9B1D720BB800707F69 /* Icon-App-40x40@1x.png in Resources */,
 				24E3DED41D720BB800707F69 /* 320-x-480.png in Resources */,
 				24E3DE9F1D720BB800707F69 /* Icon-App-60x60@2x.png in Resources */,
+				2495FCE91D74C7DE0093387B /* backGround@3x.png in Resources */,
 				24E3DEA91D720BB800707F69 /* bahrin.png in Resources */,
 				24E3DE7E1D720BB800707F69 /* DroidKufi-Regular.ttf in Resources */,
+				24DC61101D7607F000AE9DB2 /* saudi_aerbia_selected@2x.png in Resources */,
 				24E3DE861D720BB800707F69 /* Raleway-BlackItalic.ttf in Resources */,
 				24E3DE8D1D720BB800707F69 /* Raleway-Italic.ttf in Resources */,
 				24E3DEBC1D720BB800707F69 /* dubai@2x.png in Resources */,
 				24E3DE811D720BB800707F69 /* DESCRIPTION.en_us.html in Resources */,
 				24E3DEBE1D720BB800707F69 /* landing_bottom@2x.png in Resources */,
 				24E3DEC41D720BB800707F69 /* seprator@2x.png in Resources */,
+				24DC611E1D760A1C00AE9DB2 /* dubai_selected@3x.png in Resources */,
 				24E3DEA61D720BB800707F69 /* iTunesArtwork@2x.png in Resources */,
 				24E3DEC31D720BB800707F69 /* saudi_aerbia@2x.png in Resources */,
 				24E3DEBA1D720BB800707F69 /* bg_landing_top@2x.png in Resources */,
@@ -646,6 +749,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				24DC61061D75F18A00AE9DB2 /* DGRunkeeperSwitch.swift in Sources */,
 				24E3DE101D720B8B00707F69 /* LandingViewController.swift in Sources */,
 				24E3DEA81D720BB800707F69 /* README.md in Sources */,
 				24BF62D91D68D25D00BB8164 /* AppDelegate.swift in Sources */,
