@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  PriorityApp
+
+  Created by Jitendra Bhadja on 01/07/16.
+  Copyright © 2016 Jitendra Bhadja. All rights reserved.
+*/
+
+"SIN_INCOMING_IM_DISPLAY_NAME" = "You have a message from %@";

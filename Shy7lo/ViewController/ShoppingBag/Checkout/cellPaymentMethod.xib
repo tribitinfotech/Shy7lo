@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D30" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Regular.otf">
+            <string>Raleway-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="64" id="KGk-i7-Jjw" customClass="cellPaymentMethod" customModule="Shy7lo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="63"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="c9c-nG-NwL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FHP-xW-w3w">
+                                <rect key="frame" x="9" y="6" width="301" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="FHP-xW-w3w" secondAttribute="height" multiplier="301:31" id="MPR-6b-gP0">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="390"/>
+                                    </constraint>
+                                </constraints>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text=" BANK TRANSFER" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rLc-KM-9SH">
+                                <rect key="frame" x="58" y="11" width="208" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="3nH-eM-zbz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q9i-Pm-jDA">
+                                <rect key="frame" x="11" y="6" width="32" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="q9i-Pm-jDA" secondAttribute="height" multiplier="32:31" id="TDR-do-OSN"/>
+                                </constraints>
+                            </button>
+                            <imageView userInteractionEnabled="NO" alpha="0.55000000000000004" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="NKE-7u-SSw">
+                                <rect key="frame" x="9" y="42" width="301" height="19"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="0.47997359154929575" colorSpace="calibratedWhite"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cde-VR-dh2">
+                                <rect key="frame" x="19" y="50" width="281" height="0.0"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" id="n55-6K-9jg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Cde-VR-dh2" secondAttribute="bottom" constant="13.5" id="1Jy-RO-UIn"/>
+                            <constraint firstItem="FHP-xW-w3w" firstAttribute="top" secondItem="c9c-nG-NwL" secondAttribute="top" constant="6" id="4vL-mo-cyM"/>
+                            <constraint firstItem="Cde-VR-dh2" firstAttribute="width" secondItem="NKE-7u-SSw" secondAttribute="width" constant="-20" id="7Ir-mO-7EN"/>
+                            <constraint firstItem="q9i-Pm-jDA" firstAttribute="leading" secondItem="FHP-xW-w3w" secondAttribute="leading" constant="2" id="Fnl-UI-Ihr">
+                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                            </constraint>
+                            <constraint firstItem="Cde-VR-dh2" firstAttribute="leading" secondItem="NKE-7u-SSw" secondAttribute="leading" constant="10" id="MXY-uS-rJm"/>
+                            <constraint firstItem="NKE-7u-SSw" firstAttribute="width" secondItem="FHP-xW-w3w" secondAttribute="width" id="PZ8-qB-QKn"/>
+                            <constraint firstItem="q9i-Pm-jDA" firstAttribute="centerY" secondItem="FHP-xW-w3w" secondAttribute="centerY" id="RPT-u7-YLr"/>
+                            <constraint firstAttribute="trailing" secondItem="FHP-xW-w3w" secondAttribute="trailing" constant="10" id="TEn-hW-Irc"/>
+                            <constraint firstItem="rLc-KM-9SH" firstAttribute="centerY" secondItem="FHP-xW-w3w" secondAttribute="centerY" id="aOG-mf-ksV"/>
+                            <constraint firstItem="Cde-VR-dh2" firstAttribute="top" secondItem="NKE-7u-SSw" secondAttribute="top" constant="8" id="anq-Kv-kdF"/>
+                            <constraint firstAttribute="trailing" secondItem="rLc-KM-9SH" secondAttribute="trailing" constant="54" id="fh1-Ag-Zzl"/>
+                            <constraint firstItem="q9i-Pm-jDA" firstAttribute="width" secondItem="FHP-xW-w3w" secondAttribute="height" multiplier="32:31" id="gRz-Ei-qIX"/>
+                            <constraint firstItem="NKE-7u-SSw" firstAttribute="bottom" secondItem="Cde-VR-dh2" secondAttribute="bottom" constant="11" id="gbN-Iz-Umc"/>
+                            <constraint firstItem="rLc-KM-9SH" firstAttribute="leading" secondItem="c9c-nG-NwL" secondAttribute="leading" constant="58" id="nvs-fv-87X">
+                                <variation key="heightClass=regular-widthClass=regular" constant="116"/>
+                            </constraint>
+                            <constraint firstItem="FHP-xW-w3w" firstAttribute="leading" secondItem="c9c-nG-NwL" secondAttribute="leading" constant="9" id="p9x-37-SaV"/>
+                            <constraint firstItem="NKE-7u-SSw" firstAttribute="top" secondItem="FHP-xW-w3w" secondAttribute="bottom" constant="5" id="qUB-Oq-EFk"/>
+                            <constraint firstItem="NKE-7u-SSw" firstAttribute="leading" secondItem="FHP-xW-w3w" secondAttribute="leading" id="win-fa-YpZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="c9c-nG-NwL" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="3ew-59-3mp"/>
+                    <constraint firstAttribute="bottom" secondItem="c9c-nG-NwL" secondAttribute="bottom" id="bEb-Vd-gfi"/>
+                    <constraint firstItem="c9c-nG-NwL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="qAr-CB-KHk"/>
+                    <constraint firstAttribute="trailing" secondItem="c9c-nG-NwL" secondAttribute="trailing" id="wFf-xD-lIU"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="bottomInstruction" destination="1Jy-RO-UIn" id="dUY-Kg-vD9"/>
+                <outlet property="btnPaymentIcon" destination="q9i-Pm-jDA" id="5TD-Rz-btK"/>
+                <outlet property="btnPaymentMethod" destination="FHP-xW-w3w" id="pTS-bx-SxP"/>
+                <outlet property="imgBottom" destination="gbN-Iz-Umc" id="eDz-zR-fqy"/>
+                <outlet property="imgInstructionBack" destination="NKE-7u-SSw" id="3QI-sG-nnD"/>
+                <outlet property="lblInstruction" destination="Cde-VR-dh2" id="Hn3-LW-Nkl"/>
+                <outlet property="lblPaymentMethod" destination="rLc-KM-9SH" id="l0X-Ua-EyQ"/>
+                <outlet property="viewCell" destination="c9c-nG-NwL" id="0Wk-re-GuM"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="134"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>en</key>
+	<dict>
+		<key>Select language</key>
+		<string>Select language</string>
+		<key>Select country</key>
+		<string>Select country</string>
+		<key>Women</key>
+		<string>Women</string>
+		<key>Men</key>
+		<string>Men</string>
+		<key>BHD</key>
+		<string>BHD</string>
+		<key>KWD</key>
+		<string>KWD</string>
+		<key>OMR</key>
+		<string>OMR</string>
+		<key>QAR</key>
+		<string>QAR</string>
+		<key>SAR</key>
+		<string>SAR</string>
+		<key>AED</key>
+		<string>AED</string>
+		<key>Filter</key>
+		<string>FILTER</string>
+		<key>FilterMenu</key>
+		<string>Filter</string>
+		<key>Reset All</key>
+		<string>RESET ALL</string>
+		<key>Apply Filter</key>
+		<string>APPLY FILTER</string>
+		<key>All</key>
+		<string>All</string>
+		<key>Category</key>
+		<string>Category</string>
+		<key>Brands</key>
+		<string>Brands</string>
+		<key>Color</key>
+		<string>Color</string>
+		<key>Size</key>
+		<string>Size</string>
+		<key>Price</key>
+		<string>Price</string>
+		<key>New</key>
+		<string>New</string>
+		<key>Discount</key>
+		<string>Discount</string>
+		<key>Popularity</key>
+		<string>Popularity</string>
+		<key>Price (High to Low)</key>
+		<string>Price(High)</string>
+		<key>Price (Low to High)</key>
+		<string>Price(Low)</string>
+		<key>Details</key>
+		<string>DETAILS</string>
+		<key>Addition information</key>
+		<string>ADDITIONAL INFORMATION</string>
+		<key>SKU</key>
+		<string>SKU</string>
+		<key>Add to bag</key>
+		<string>    ADD TO BAG</string>
+		<key>Awesome choice</key>
+		<string>Awesome choice!</string>
+		<key>What do you want to do now ?</key>
+		<string>What do you want to do now ?</string>
+		<key>Continue shopping</key>
+		<string>Continue shopping</string>
+		<key>View cart</key>
+		<string>View cart</string>
+		<key>Shopping bag</key>
+		<string>SHOPPING BAG</string>
+		<key>Save for later</key>
+		<string>Save for later</string>
+		<key>Size_cart</key>
+		<string>SIZE</string>
+		<key>Remove</key>
+		<string>Remove</string>
+		<key>Subtotal</key>
+		<string>SUBTOTAL</string>
+		<key>Product</key>
+		<string>Product</string>
+		<key>Products</key>
+		<string>Products</string>
+		<key>Delivery</key>
+		<string>Delivery</string>
+		<key>Days</key>
+		<string>Days</string>
+		<key>Day</key>
+		<string>Day</string>
+		<key>Checkout</key>
+		<string>CHECKOUT</string>
+		<key>Go to products</key>
+		<string>GO TO PRODUCTS</string>
+		<key>Empty bag</key>
+		<string>Your shopping bag is empty.To add products to shopping bag go to product feed, select desired product and click add to bag button.</string>
+		<key>Not a member</key>
+		<string>Not a member?</string>
+		<key>Email address</key>
+		<string>Email address</string>
+		<key>Email</key>
+		<string>Email</string>
+		<key>Continue as guest</key>
+		<string>CONTINUE AS GUEST</string>
+		<key>Login to your shy7lo account</key>
+		<string>Login to your shy7lo account</string>
+		<key>Password</key>
+		<string>Password</string>
+		<key>Sign In</key>
+		<string>SIGN IN</string>
+		<key>Forgot password ?</key>
+		<string>Forgot password ?</string>
+		<key>Shipment</key>
+		<string>Shipment</string>
+		<key>Review &amp; Pay</key>
+		<string>Review &amp; Pay</string>
+		<key>Full name</key>
+		<string>Full name*</string>
+		<key>Contact number</key>
+		<string>Contact number*</string>
+		<key>Country Code</key>
+		<string>Country Code</string>
+		<key>Number(Last 7 digit)</key>
+		<string>Number</string>
+		<key>Address</key>
+		<string>Address*</string>
+		<key>City</key>
+		<string>City*</string>
+		<key>Required fields</key>
+		<string>*Required fields</string>
+		<key>Proceed to payment</key>
+		<string>PROCEED TO PAYMENT</string>
+		<key>Use coupen code</key>
+		<string>USE COUPEN CODE</string>
+		<key>Include all duties</key>
+		<string>Include all duties</string>
+		<key>Back</key>
+		<string>BACK</string>
+		<key>Buy Now</key>
+		<string>BUY NOW</string>
+		<key>Review your order</key>
+		<string>REVIEW YOUR ORDER</string>
+		<key>Quantity</key>
+		<string>Quantity</string>
+		<key>Shipping address</key>
+		<string>SHIPPING ADDRESS</string>
+		<key>Enter Coupen code</key>
+		<string>Enter Coupen code</string>
+		<key>OR</key>
+		<string>OR</string>
+		<key>Next</key>
+		<string>Next</string>
+		<key>OK</key>
+		<string>OK</string>
+		<key>Shy7lo</key>
+		<string>Shy7lo</string>
+		<key>Validate</key>
+		<string>Validate</string>
+		<key>—Choose month—</key>
+		<string>—Choose month—</string>
+		<key>—Choose year—</key>
+		<string>—Choose year—</string>
+		<key>Name on card</key>
+		<string>Name on card*</string>
+		<key>Expiration date</key>
+		<string>Expiration date*</string>
+		<key>CVV</key>
+		<string>CVV*</string>
+		<key>BILLING ADDRESS SAME AS SHIPPING ADDRESS</key>
+		<string>BILLING ADDRESS SAME AS SHIPPING ADDRESS</string>
+		<key>REGISTER NEWSLETTER</key>
+		<string>REGISTER NEWSLETTER</string>
+		<key>banktransfer</key>
+		<string>Bank transfer payment</string>
+		<key>payfort_fort_cc</key>
+		<string>Credit/Debit card</string>
+		<key>shy7lo_paypal</key>
+		<string>Paypal</string>
+		<key>payfort_fort_sadad</key>
+		<string>Sadad</string>
+		<key>Enter valid coupen code</key>
+		<string>Enter valid coupen code</string>
+		<key>Remove coupen</key>
+		<string>Remove coupen</string>
+		<key>Done</key>
+		<string>Done</string>
+		<key>Done_filter</key>
+		<string>Done</string>
+		<key>Cancel</key>
+		<string>Cancel</string>
+		<key>Something went wrong</key>
+		<string>Something went wrong</string>
+		<key>Please enter coupen code</key>
+		<string>Please enter coupen code</string>
+		<key>msp_cashondelivery</key>
+		<string>Cash on delivery</string>
+		<key>Order placed successfully</key>
+		<string>Order placed successfully</string>
+		<key>Card number</key>
+		<string>Card number*</string>
+		<key>January</key>
+		<string>January</string>
+		<key>Febuary</key>
+		<string>Febuary</string>
+		<key>March</key>
+		<string>March</string>
+		<key>April</key>
+		<string>April</string>
+		<key>May</key>
+		<string>May</string>
+		<key>June</key>
+		<string>June</string>
+		<key>July</key>
+		<string>July</string>
+		<key>August</key>
+		<string>August</string>
+		<key>September</key>
+		<string>September</string>
+		<key>October</key>
+		<string>October</string>
+		<key>November</key>
+		<string>November</string>
+		<key>December</key>
+		<string>December</string>
+		<key>congratulations</key>
+		<string>CONGRATULATIONS</string>
+		<key>Clear</key>
+		<string>Clear</string>
+		<key>Search</key>
+		<string>Search</string>
+		<key>Select Size</key>
+		<string>Select Size</string>
+		<key>Kids</key>
+		<string>Kids</string>
+		<key>Please select payment method</key>
+		<string>Please select payment method</string>
+		<key>Please enter fullname</key>
+		<string>Please enter fullname</string>
+		<key>Please enter phone number</key>
+		<string>Please enter phone number</string>
+		<key>Please enter address</key>
+		<string>Please enter address</string>
+		<key>Please enter city</key>
+		<string>Please enter city</string>
+		<key>Please enter email</key>
+		<string>Please enter email</string>
+		<key>Please enter password</key>
+		<string>Please enter password</string>
+		<key>Please enter valid email address</key>
+		<string>Please enter valid email address</string>
+		<key>Please select country</key>
+		<string>Please select country</string>
+		<key>order ID</key>
+		<string>ORDER ID</string>
+		<key>Name</key>
+		<string>NAME</string>
+		<key>This product is out of stock.</key>
+		<string>This product is out of stock.</string>
+		<key>Please select size</key>
+		<string>Please select size</string>
+		<key>You need to login first</key>
+		<string>You need to login first</string>
+		<key>Successfully added to wishlist</key>
+		<string>Successfully added to wishlist</string>
+		<key>WISHLIST</key>
+		<string>WISHLIST</string>
+		<key>Payfort Payment</key>
+		<string>Payfort Payment</string>
+		<key>Sign Up</key>
+		<string>SIGN UP</string>
+		<key>Shop</key>
+		<string>SHOP</string>
+		<key>Country</key>
+		<string>Country</string>
+		<key>Language</key>
+		<string>Language</string>
+		<key>First Name</key>
+		<string>First Name</string>
+		<key>Last Name</key>
+		<string>Last Name</string>
+		<key>First Name Checkout</key>
+		<string>First Name*</string>
+		<key>Last Name Checkout</key>
+		<string>Last Name*</string>
+		<key>Gender</key>
+		<string>Gender</string>
+		<key>Your first Name</key>
+		<string>Your first Name</string>
+		<key>Your last name</key>
+		<string>Your last name</string>
+		<key>Your gender</key>
+		<string>Your gender</string>
+		<key>Your email</key>
+		<string>Your email</string>
+		<key>At least 6 characters</key>
+		<string>At least 6 characters</string>
+		<key>Please enter first name</key>
+		<string>Please enter first name</string>
+		<key>Please enter last name</key>
+		<string>Please enter last name</string>
+		<key>Please select gender</key>
+		<string>Please select gender</string>
+		<key>Please enter email address</key>
+		<string>Please enter email address</string>
+		<key>Register</key>
+		<string>Register</string>
+		<key>Subscribe to the newsletter and get the latest fashion updates!</key>
+		<string>Subscribe to the newsletter and get the latest fashion updates!</string>
+		<key>By joining you agree with our Terms and Privacy Policy</key>
+		<string>By joining you agree with our Terms and Privacy Policy</string>
+		<key>Select your country</key>
+		<string>Select your country</string>
+		<key>Apply</key>
+		<string>Apply</string>
+		<key>Select your language</key>
+		<string>Select your language</string>
+		<key>Terms</key>
+		<string>Terms</string>
+		<key>Privacy Policy</key>
+		<string>Privacy Policy</string>
+		<key>Telephone</key>
+		<string>Telephone</string>
+		<key>Your telephone</key>
+		<string>Your telephone</string>
+		<key>Please enter telephone</key>
+		<string>Please enter telephone</string>
+		<key>Please enter name</key>
+		<string>Please enter name</string>
+		<key>Your name</key>
+		<string>Your name</string>
+		<key>Male</key>
+		<string>Male</string>
+		<key>Female</key>
+		<string>Female</string>
+		<key>Password should be at least 6 characters</key>
+		<string>Password should be at least 6 characters</string>
+		<key>Request new password</key>
+		<string>Request new password</string>
+		<key>Password reset request successful,please check your mail</key>
+		<string>Password reset request successful,please check your mail</string>
+		<key>No product found</key>
+		<string>No product found</string>
+		<key>Search Shy7lo for better fashion</key>
+		<string>Search Shy7lo for better fashion</string>
+		<key>Login Now</key>
+		<string>Login Now</string>
+		<key>You need to login first to get your wishlist</key>
+		<string>You need to login first to get your wishlist</string>
+		<key>Your wishlist is empty</key>
+		<string>Your wishlist is empty.To add products to wishlist go to product feed, select desired product and click Favourite button</string>
+		<key>You have reached maximum quantity available</key>
+		<string>You have reached maximum quantity available</string>
+		<key>No result found</key>
+		<string>No result found</string>
+		<key>My Account</key>
+		<string>MY ACCOUNT</string>
+		<key>Logout</key>
+		<string>LOG OUT</string>
+		<key>special price</key>
+		<string>Special price</string>
+		<key>free</key>
+		<string>free</string>
+		<key>Perfume Size</key>
+		<string>PERFUME SIZE</string>
+		<key>DoneFilter</key>
+		<string>Done</string>
+		<key>Upgrade</key>
+		<string>Upgrade</string>
+		<key>updateMessage</key>
+		<string>An update is available for the app. Please update for better experience.</string>
+		<key>sort</key>
+		<string>SORT</string>
+		<key>view</key>
+		<string>VIEW</string>
+	</dict>
+	<key>ar</key>
+	<dict>
+		<key>Select language</key>
+		<string>اللغة</string>
+		<key>Select country</key>
+		<string>الدولة</string>
+		<key>Women</key>
+		<string>النساء</string>
+		<key>Men</key>
+		<string>الرجال</string>
+		<key>BHD</key>
+		<string>دينار بحريني</string>
+		<key>KWD</key>
+		<string>دينار كويتي</string>
+		<key>OMR</key>
+		<string>ريال عماني</string>
+		<key>QAR</key>
+		<string>ريال قطري</string>
+		<key>SAR</key>
+		<string>ريال سعودي</string>
+		<key>Filter</key>
+		<string>تصفية البحث</string>
+		<key>AED</key>
+		<string>درهم إماراتي</string>
+		<key>FilterMenu</key>
+		<string>تصفية البحث</string>
+		<key>Reset All</key>
+		<string>ازالة الفلتر</string>
+		<key>Apply Filter</key>
+		<string>إستخدام</string>
+		<key>All</key>
+		<string>الكل</string>
+		<key>Category</key>
+		<string>الفئة</string>
+		<key>Color</key>
+		<string>اللون</string>
+		<key>Brands</key>
+		<string>مصممون</string>
+		<key>Size</key>
+		<string>القياس</string>
+		<key>Price</key>
+		<string>السعر</string>
+		<key>New</key>
+		<string>جديد</string>
+		<key>Popularity</key>
+		<string>الأكثر شهرة</string>
+		<key>Discount</key>
+		<string>تخفيضات</string>
+		<key>Price (High to Low)</key>
+		<string>أقل سعر</string>
+		<key>Details</key>
+		<string>وصف المنتج</string>
+		<key>Price (Low to High)</key>
+		<string>أعلى سعر</string>
+		<key>Add to bag</key>
+		<string>إضافة الى حقيبة التسوق</string>
+		<key>SKU</key>
+		<string>SKU</string>
+		<key>Addition information</key>
+		<string>تفاصيل إضافية</string>
+		<key>Awesome choice</key>
+		<string>اختيار رائع!</string>
+		<key>What do you want to do now ?</key>
+		<string>ماذا تريد أن تفعل الآن؟</string>
+		<key>Continue shopping</key>
+		<string>متابعة التسوق</string>
+		<key>View cart</key>
+		<string>عرض حقيبة التسوق</string>
+		<key>Shopping bag</key>
+		<string>حقيبة التسوق</string>
+		<key>Save for later</key>
+		<string>حفظ المنتج</string>
+		<key>Size_cart</key>
+		<string>القياس</string>
+		<key>Remove</key>
+		<string>إزالة</string>
+		<key>Subtotal</key>
+		<string>إجمالي المبلغ</string>
+		<key>Product</key>
+		<string>منتج</string>
+		<key>Products</key>
+		<string>منتجات</string>
+		<key>Delivery</key>
+		<string>الشحن والتوصيل</string>
+		<key>Days</key>
+		<string>أيام</string>
+		<key>Day</key>
+		<string>يوم</string>
+		<key>Checkout</key>
+		<string>إتمام الشراء</string>
+		<key>Go to products</key>
+		<string>جميع المنتجات</string>
+		<key>Empty bag</key>
+		<string>لاتوجد منتجات في حقيبة التسوق. لإضافة منتج الى حقيبة التسوق قم باختيار المنتج الذي ترغب في اضافته ثم اضغط على اضافة الى حقيبة التسوق</string>
+		<key>Not a member</key>
+		<string>ليس لديك حساب على الموقع؟</string>
+		<key>Email address</key>
+		<string>البريد الإلكتروني</string>
+		<key>Email</key>
+		<string>البريد الإلكتروني</string>
+		<key>Continue as guest</key>
+		<string>المتابعة كضيف</string>
+		<key>Login to your shy7lo account</key>
+		<string>تسجيل الدخول</string>
+		<key>Password</key>
+		<string>كلمة السر</string>
+		<key>Sign In</key>
+		<string>تسجيل الدخول</string>
+		<key>Forgot password ?</key>
+		<string>هل نسيت كلمة السر؟</string>
+		<key>Shipment</key>
+		<string>الشحن</string>
+		<key>Review &amp; Pay</key>
+		<string>تفاصيل الطلب وعملية الدفع</string>
+		<key>Full name</key>
+		<string>الإسم بالكامل*</string>
+		<key>Contact number</key>
+		<string>بيانات الاتصال*</string>
+		<key>Country Code</key>
+		<string>كود الدولة</string>
+		<key>Number(Last 7 digit)</key>
+		<string>رقم الهاتف</string>
+		<key>Address</key>
+		<string>العنوان*</string>
+		<key>City</key>
+		<string>المدينة*</string>
+		<key>Required fields</key>
+		<string>حقول مطلوبة*</string>
+		<key>Proceed to payment</key>
+		<string>المتابعة للدفع الآمن</string>
+		<key>Use coupen code</key>
+		<string>استخدام قسيمة الشراء</string>
+		<key>Include all duties</key>
+		<string>إضافة المصاريف الجمركية</string>
+		<key>Back</key>
+		<string>العودة</string>
+		<key>Buy Now</key>
+		<string>اطلب الآن</string>
+		<key>Review your order</key>
+		<string>عرض الطلب</string>
+		<key>Quantity</key>
+		<string>الكمية</string>
+		<key>Shipping address</key>
+		<string>عنوان الشحن</string>
+		<key>Enter Coupen code</key>
+		<string>إضافة كود قسيمة الشراء</string>
+		<key>OR</key>
+		<string>أو</string>
+		<key>Next</key>
+		<string>حفظ</string>
+		<key>OK</key>
+		<string>حسنا</string>
+		<key>Shy7lo</key>
+		<string>شي حلو</string>
+		<key>Validate</key>
+		<string>تفعيل الرقم</string>
+		<key>—Choose month—</key>
+		<string>الشهر</string>
+		<key>—Choose year—</key>
+		<string>السنة</string>
+		<key>Card number</key>
+		<string>رقم البطاقة*</string>
+		<key>Name on card</key>
+		<string>الإسم الموجود على البطاقة*</string>
+		<key>Expiration date</key>
+		<string>تاريخ إنتهاء صلاحية البطاقة*</string>
+		<key>CVV</key>
+		<string>رمز ال CVV*</string>
+		<key>BILLING ADDRESS SAME AS SHIPPING ADDRESS</key>
+		<string>عنوان الفاتورة هو نفسه عنوان الشحن</string>
+		<key>REGISTER NEWSLETTER</key>
+		<string>الاشتراك في النشرة البريدية</string>
+		<key>banktransfer</key>
+		<string>الدفع عن طريق حوالة بنكية</string>
+		<key>payfort_fort_cc</key>
+		<string>البطاقة الائتمانية / بطاقة المدين</string>
+		<key>payfort_fort_sadad</key>
+		<string>سداد</string>
+		<key>shy7lo_paypal</key>
+		<string>Paypal</string>
+		<key>msp_cashondelivery</key>
+		<string>الدفع نقدًا عند الاستلام</string>
+		<key>Order placed successfully</key>
+		<string>تم اتمام الطلب بنجاح</string>
+		<key>Enter valid coupen code</key>
+		<string>يجب التأكد من أن كود قسيمة الشراء صحيح</string>
+		<key>Remove coupen</key>
+		<string>إزالة</string>
+		<key>Something went wrong</key>
+		<string>خطأ</string>
+		<key>Done</key>
+		<string>تمت العملية</string>
+		<key>Done_filter</key>
+		<string>حفظ</string>
+		<key>Cancel</key>
+		<string>إلغاء</string>
+		<key>January</key>
+		<string>كانون الثاني</string>
+		<key>Febuary</key>
+		<string>فبراير</string>
+		<key>March</key>
+		<string>مارس</string>
+		<key>April</key>
+		<string>أبريل</string>
+		<key>May</key>
+		<string>قد</string>
+		<key>June</key>
+		<string>يونيو</string>
+		<key>July</key>
+		<string>يوليو</string>
+		<key>August</key>
+		<string>أغسطس</string>
+		<key>September</key>
+		<string>سبتمبر</string>
+		<key>October</key>
+		<string>شهر اكتوبر</string>
+		<key>November</key>
+		<string>شهر نوفمبر</string>
+		<key>December</key>
+		<string>ديسمبر</string>
+		<key>congratulations</key>
+		<string>تهانينا</string>
+		<key>order ID</key>
+		<string>رقم الطلبية</string>
+		<key>Clear</key>
+		<string>حذف</string>
+		<key>Search</key>
+		<string>بحث</string>
+		<key>Kids</key>
+		<string>أطفال</string>
+		<key>Select Size</key>
+		<string>من فضلك قم باختيار القياس</string>
+		<key>Please enter coupen code</key>
+		<string>من فضلك قم بادخال كود قسيمة الشراء</string>
+		<key>Please select payment method</key>
+		<string>يجب اختيار وسيلة دفع</string>
+		<key>Please enter fullname</key>
+		<string>يجب إدخال الإسم بالكامل</string>
+		<key>Please enter phone number</key>
+		<string>يجب إدخال رقم الهاتف</string>
+		<key>Please enter address</key>
+		<string>يجب إدخال العنوان</string>
+		<key>Please enter city</key>
+		<string>يجب إدخال المدينة</string>
+		<key>Please enter email</key>
+		<string>يجب إدخال البريد الإلكتروني</string>
+		<key>Please enter password</key>
+		<string>يجب إدخال كلمة السر</string>
+		<key>Please enter valid email address</key>
+		<string>يجب إدخال بريد إلكتروني صحيح</string>
+		<key>Please select country</key>
+		<string>يجب اختيار بلد</string>
+		<key>Name</key>
+		<string>اسم</string>
+		<key>This product is out of stock.</key>
+		<string>لقد نفدت الكمية المتاحة من هذا المنتج</string>
+		<key>Please select size</key>
+		<string>من فضلك قم باختيار القياس</string>
+		<key>You need to login first</key>
+		<string>يجب عليك الدخول إلى حسابك أولاً</string>
+		<key>Successfully added to wishlist</key>
+		<string>تم اضافة المنتج الى قائمة الرغبات بنجاح</string>
+		<key>WISHLIST</key>
+		<string>قائمة الرغبات</string>
+		<key>Payfort Payment</key>
+		<string>بوابة الدفع الإلكتروني بيفورت</string>
+		<key>Sign Up</key>
+		<string>التسجيل</string>
+		<key>Shop</key>
+		<string>تسوق حسب</string>
+		<key>Country</key>
+		<string>الدولة</string>
+		<key>Language</key>
+		<string>اللغة</string>
+		<key>First Name</key>
+		<string>اسم</string>
+		<key>Last Name</key>
+		<string>اسم العائلة</string>
+		<key>First Name Checkout</key>
+		<string>اسم*</string>
+		<key>Last Name Checkout</key>
+		<string>اسم العائلة*</string>
+		<key>Gender</key>
+		<string>النوع</string>
+		<key>Your first Name</key>
+		<string>الاسم الأول</string>
+		<key>Your last name</key>
+		<string>اسم العائلة</string>
+		<key>Your gender</key>
+		<string>النوع</string>
+		<key>Your email</key>
+		<string>البريد الإلكتروني</string>
+		<key>At least 6 characters</key>
+		<string>6 حروف أو أرقام على الأقل</string>
+		<key>Please enter first name</key>
+		<string>الاسم الأول</string>
+		<key>Please enter last name</key>
+		<string>اسم العائلة</string>
+		<key>Please select gender</key>
+		<string>النوع</string>
+		<key>Please enter email address</key>
+		<string>البريد الإلكتروني</string>
+		<key>Register</key>
+		<string>تسجيل</string>
+		<key>Subscribe to the newsletter and get the latest fashion updates!</key>
+		<string>اشترك في نشرة أخبار شي حلو لتحصل على أقوى العروض والتخفيضات</string>
+		<key>By joining you agree with our Terms and Privacy Policy</key>
+		<string>اشتراكك يدل على موافقتك على الشروط والأحكام وسياسة الخصوصية</string>
+		<key>Select your country</key>
+		<string>من فضلك قم باختيار الدولة</string>
+		<key>Apply</key>
+		<string>المتابعة</string>
+		<key>Select your language</key>
+		<string>اللغة</string>
+		<key>Terms</key>
+		<string>الشروط والأحكام </string>
+		<key>Privacy Policy</key>
+		<string>سياسة الخصوصية</string>
+		<key>Telephone</key>
+		<string> رقم الهاتف</string>
+		<key>Your telephone</key>
+		<string>رقم الهاتف</string>
+		<key>Please enter telephone</key>
+		<string>من فضلك أدخل رقم الهاتف</string>
+		<key>Please enter name</key>
+		<string>الاسم</string>
+		<key>Your name</key>
+		<string>الاسم</string>
+		<key>Male</key>
+		<string>ذكر</string>
+		<key>Female</key>
+		<string>أنثى</string>
+		<key>Password should be at least 6 characters</key>
+		<string>6 حروف أو أرقام على الأقل</string>
+		<key>Request new password</key>
+		<string>اعادة تعيين كلمة السر</string>
+		<key>Password reset request successful,please check your mail</key>
+		<string>لقد تم اعادة تعيين كلمة السر بنجاح، من فضلك تفقد البريد الإلكتروني الخاص بك.</string>
+		<key>No product found</key>
+		<string>لم يتم العثور على أي منتج</string>
+		<key>Search Shy7lo for better fashion</key>
+		<string> ابحث في المتجر بأكمله</string>
+		<key>Login Now</key>
+		<string>دخول</string>
+		<key>You need to login first to get your wishlist</key>
+		<string> يجب الدخول الى حسابك على شي حلو للاطلاع على قائمة الرغبات</string>
+		<key>Your wishlist is empty</key>
+		<string>لاتوجد منتجات في قائمة الرغبات الخاصة بك؛ يمكنك اضافة منتجات الى القائمة عن طريق اختيار المنتج والضغط على &quot;اضافة الى
+
+قائمة الرغبات&quot; .</string>
+		<key>You have reached maximum quantity available</key>
+		<string> لقد نفدت الكمية المتاحة من هذا المنتج</string>
+		<key>No result found</key>
+		<string>لم يتم العثور على نتائج مطابقة للبحث</string>
+		<key>My Account</key>
+		<string>حسابي</string>
+		<key>Logout</key>
+		<string>خروج</string>
+		<key>special price</key>
+		<string>سعر خاص</string>
+		<key>free</key>
+		<string>حر</string>
+		<key>Perfume Size</key>
+		<string>الحجم</string>
+		<key>DoneFilter</key>
+		<string>عرض النتائج</string>
+		<key>Upgrade</key>
+		<string>تحديث</string>
+		<key>updateMessage</key>
+		<string>من فضلك قم بتحديث التطبيق لتجربة تسوق أفضل.</string>
+		<key>sort</key>
+		<string>ترتيب</string>
+		<key>view</key>
+		<string>فرز</string>
+	</dict>
+</dict>
+</plist>

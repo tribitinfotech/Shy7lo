@@ -1,18 +1,204 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D30" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="ipad9_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="Raleway-Bold.otf">
+            <string>Raleway-Bold</string>
+        </array>
+        <array key="Raleway-SemiBold.otf">
+            <string>Raleway-SemiBold</string>
+        </array>
+    </customFonts>
     <objects>
-        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="LandingViewController" customModule="Shy7lo" customModuleProvider="target">
+            <connections>
+                <outlet property="btnBahrin" destination="NeU-93-eCd" id="UXZ-rK-Atb"/>
+                <outlet property="btnDubai" destination="DxX-MO-boS" id="sYi-nA-XEL"/>
+                <outlet property="btnKuwait" destination="x1n-Xw-9uO" id="JZg-Ua-BpE"/>
+                <outlet property="btnOman" destination="PMa-Ky-FBK" id="QiP-07-pvy"/>
+                <outlet property="btnQatar" destination="Wfa-hC-j6L" id="5ux-LE-j83"/>
+                <outlet property="btnSaudiArabia" destination="lPx-UK-D7N" id="f8D-rg-Odi"/>
+                <outlet property="imgLogo" destination="pa5-JN-yns" id="2z0-Sk-86j"/>
+                <outlet property="runkeeperSwitch4" destination="s59-4g-2wz" id="LYs-LI-hzY"/>
+                <outlet property="view" destination="mI6-Fo-QIQ" id="aIk-Sl-3Ot"/>
+            </connections>
+        </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view contentMode="scaleToFill" id="iN0-l3-epB">
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="mI6-Fo-QIQ">
             <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
-            <point key="canvasLocation" x="246" y="228"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_landing.png" translatesAutoresizingMaskIntoConstraints="NO" id="vUH-vI-aTc">
+                    <rect key="frame" x="0.0" y="-2" width="768" height="1024"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="bg_landing_pop.png" translatesAutoresizingMaskIntoConstraints="NO" id="9S3-Ol-aOy">
+                    <rect key="frame" x="51" y="51" width="668" height="947"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="bg_landing_top.png" translatesAutoresizingMaskIntoConstraints="NO" id="gBT-M8-c7D">
+                    <rect key="frame" x="63" y="58" width="644" height="132"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" image="logo_arabic.png" translatesAutoresizingMaskIntoConstraints="NO" id="pa5-JN-yns">
+                    <rect key="frame" x="335" y="98" width="95" height="35"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PMa-Ky-FBK">
+                    <rect key="frame" x="106" y="706" width="148" height="85"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="oman.png"/>
+                    <state key="selected" backgroundImage="oman_selected.png"/>
+                    <connections>
+                        <action selector="btnLanguageAction:" destination="-1" eventType="touchUpInside" id="GZg-9k-A6Y"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rZ0-ek-Old">
+                    <rect key="frame" x="63" y="874" width="644" height="116"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="landing_bottom.png"/>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select language" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wnz-ZF-n1E">
+                    <rect key="frame" x="207" y="239" width="350" height="39"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="21"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s59-4g-2wz" customClass="DGRunkeeperSwitch" customModule="Shy7lo" customModuleProvider="target">
+                    <rect key="frame" x="127" y="325" width="504" height="53"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="string" keyPath="titleFontFamily" value="Times New Roman"/>
+                        <userDefinedRuntimeAttribute type="number" keyPath="titleFontSize">
+                            <real key="value" value="17"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="switchValueDidChange:" destination="-1" eventType="valueChanged" id="jJo-Zg-UKX"/>
+                    </connections>
+                </view>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Q0M-Sy-U04">
+                    <rect key="frame" x="127" y="325" width="209" height="53"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="18"/>
+                    <state key="normal" title="English" backgroundImage="btn_clack.png"/>
+                    <connections>
+                        <action selector="btnEnglishAction:" destination="-1" eventType="touchUpInside" id="UWG-Ad-w7w"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sLj-Wf-lgs">
+                    <rect key="frame" x="420" y="325" width="207" height="53"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="18"/>
+                    <state key="normal" title="Arabic" backgroundImage="btn_clack.png"/>
+                    <connections>
+                        <action selector="btnArabicAction:" destination="-1" eventType="touchUpInside" id="boV-OX-tAV"/>
+                    </connections>
+                </button>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seprator.png" translatesAutoresizingMaskIntoConstraints="NO" id="TJE-Z7-D4K">
+                    <rect key="frame" x="127" y="447" width="504" height="3"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Select country" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JyB-aw-ig6">
+                    <rect key="frame" x="203" y="494" width="348" height="36"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Raleway-Bold" family="Raleway" pointSize="21"/>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Bin-gg-dVO">
+                    <rect key="frame" x="602" y="906" width="29" height="40"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="right_arrow.png"/>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEa-Uq-yML">
+                    <rect key="frame" x="88" y="883" width="588" height="83"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="22"/>
+                    <state key="normal" title="Next"/>
+                    <connections>
+                        <action selector="btnNextAction:" destination="-1" eventType="touchUpInside" id="IOb-cD-86v"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x1n-Xw-9uO">
+                    <rect key="frame" x="311" y="706" width="144" height="85"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="kuwait.png"/>
+                    <state key="selected" backgroundImage="kuwait_selected.png"/>
+                    <connections>
+                        <action selector="btnLanguageAction:" destination="-1" eventType="touchUpInside" id="CXF-fM-adZ"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NeU-93-eCd">
+                    <rect key="frame" x="512" y="706" width="147" height="85"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="bahrin.png"/>
+                    <state key="selected" backgroundImage="bahrin_selected.png"/>
+                    <connections>
+                        <action selector="btnLanguageAction:" destination="-1" eventType="touchUpInside" id="FD9-OJ-Oae"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lPx-UK-D7N">
+                    <rect key="frame" x="106" y="586" width="148" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="saudi_aerbia.png"/>
+                    <state key="selected" backgroundImage="saudi_aerbia_selected.png"/>
+                    <connections>
+                        <action selector="btnLanguageAction:" destination="-1" eventType="touchUpInside" id="TbV-LC-5eb"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DxX-MO-boS">
+                    <rect key="frame" x="311" y="586" width="144" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="dubai.png"/>
+                    <state key="selected" backgroundImage="dubai_selected.png"/>
+                    <connections>
+                        <action selector="btnLanguageAction:" destination="-1" eventType="touchUpInside" id="ZhJ-9m-c3z"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Wfa-hC-j6L">
+                    <rect key="frame" x="512" y="586" width="147" height="80"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMinX="YES" widthSizable="YES" flexibleMaxX="YES" flexibleMinY="YES" heightSizable="YES" flexibleMaxY="YES"/>
+                    <state key="normal" backgroundImage="qatar.png"/>
+                    <state key="selected" backgroundImage="qatar_selected.png"/>
+                    <connections>
+                        <action selector="btnLanguageAction:" destination="-1" eventType="touchUpInside" id="KwM-aR-Tqf"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <point key="canvasLocation" x="304" y="519"/>
         </view>
     </objects>
+    <resources>
+        <image name="bahrin.png" width="62" height="47"/>
+        <image name="bahrin_selected.png" width="64" height="40"/>
+        <image name="bg_landing.png" width="372" height="662"/>
+        <image name="bg_landing_pop.png" width="278" height="526"/>
+        <image name="bg_landing_top.png" width="268" height="74"/>
+        <image name="btn_clack.png" width="102" height="36"/>
+        <image name="dubai.png" width="61" height="45"/>
+        <image name="dubai_selected.png" width="64" height="40"/>
+        <image name="kuwait.png" width="75" height="47"/>
+        <image name="kuwait_selected.png" width="64" height="40"/>
+        <image name="landing_bottom.png" width="267" height="65"/>
+        <image name="logo_arabic.png" width="70" height="28"/>
+        <image name="oman.png" width="74" height="47"/>
+        <image name="oman_selected.png" width="64" height="40"/>
+        <image name="qatar.png" width="61" height="45"/>
+        <image name="qatar_selected.png" width="64" height="40"/>
+        <image name="right_arrow.png" width="12" height="27"/>
+        <image name="saudi_aerbia.png" width="61" height="45"/>
+        <image name="saudi_aerbia_selected.png" width="64" height="40"/>
+        <image name="seprator.png" width="245" height="1"/>
+    </resources>
 </document>

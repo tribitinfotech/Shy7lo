@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D30" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="DroidKufi-Regular.ttf">
+            <string>DroidArabicKufi</string>
+        </array>
+        <array key="Raleway-Regular.otf">
+            <string>Raleway-Regular</string>
+        </array>
+        <array key="Raleway-SemiBold.otf">
+            <string>Raleway-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="PayFortView">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZpR-df-qku">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ship_name.png" translatesAutoresizingMaskIntoConstraints="NO" id="PI3-AQ-tyu">
+                            <rect key="frame" x="12" y="122" width="297" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="PI3-AQ-tyu" secondAttribute="height" multiplier="44:5" id="NdF-tr-f0T">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="390"/>
+                                </constraint>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ship_name.png" translatesAutoresizingMaskIntoConstraints="NO" id="ouZ-ej-lg1">
+                            <rect key="frame" x="11" y="201" width="297" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="ouZ-ej-lg1" secondAttribute="height" multiplier="44:5" id="abu-Tr-2Oc">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="390"/>
+                                </constraint>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ship_name.png" translatesAutoresizingMaskIntoConstraints="NO" id="LTm-dt-sfd">
+                            <rect key="frame" x="120" y="281" width="184" height="31"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="LTm-dt-sfd" secondAttribute="height" multiplier="239:40" id="8qs-69-ESq">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="300"/>
+                                </constraint>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ship_name.png" translatesAutoresizingMaskIntoConstraints="NO" id="bm1-ah-h0h">
+                            <rect key="frame" x="120" y="349" width="184" height="30.5"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="رقم البطاقة*" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zaW-Yc-KlT">
+                            <rect key="frame" x="-43" y="97" width="347" height="22"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="22" id="H8s-Am-kmr"/>
+                                <constraint firstAttribute="width" constant="347" id="KBS-n0-7Ny"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4BK-mN-Efg" customClass="PFKJVFloatLabeledTextField">
+                            <rect key="frame" x="19" y="126" width="282" height="27"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="4BK-mN-Efg" secondAttribute="height" multiplier="11:1" constant="-15" id="OW9-69-nXV">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="390"/>
+                                </constraint>
+                            </constraints>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الإسم الموجود على البطاقة*" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K20-8v-Opo">
+                            <rect key="frame" x="12" y="176" width="292" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="K69-CB-jiQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IUw-VU-rNv" customClass="PFKJVFloatLabeledTextField">
+                            <rect key="frame" x="19" y="205" width="282" height="27"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="IUw-VU-rNv" secondAttribute="height" multiplier="11:1" constant="-15" id="57B-gm-FK4">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="390"/>
+                                </constraint>
+                            </constraints>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="تاريخ إنتهاء صلاحية البطاقة*" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SMN-Cg-dfU">
+                            <rect key="frame" x="56" y="257" width="248" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="248" id="d3u-Kz-ZJX"/>
+                                <constraint firstAttribute="height" constant="21" id="eqo-wL-0fd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="F42-gs-qVP" customClass="PFKJVFloatLabeledTextField">
+                            <rect key="frame" x="129" y="354" width="166" height="18.5"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numbersAndPunctuation"/>
+                        </textField>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Db-JD-KUv">
+                            <rect key="frame" x="288" y="399.5" width="15" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="15" id="b35-op-SBZ"/>
+                                <constraint firstAttribute="width" constant="15" id="kkP-KY-eBj"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="ship_unselect.png"/>
+                            <state key="selected" backgroundImage="ship_selectedbox.png"/>
+                            <connections>
+                                <action selector="btnCHeckBoxAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="gKa-1U-YyC"/>
+                            </connections>
+                        </button>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="عنوان الفاتورة هو نفسه عنوان الشحن" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KqY-nF-cSp">
+                            <rect key="frame" x="51" y="399.5" width="227" height="14"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="14" id="YSm-RI-nma"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seperator.png" translatesAutoresizingMaskIntoConstraints="NO" id="Euz-Dv-cIk">
+                            <rect key="frame" x="55" y="421.5" width="246" height="1"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="1" id="P88-jY-LkW"/>
+                            </constraints>
+                        </imageView>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="klV-bd-v8y">
+                            <rect key="frame" x="288" y="430.5" width="15" height="15"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="15" id="crV-nR-1Jb"/>
+                                <constraint firstAttribute="height" constant="15" id="fzE-W8-D6v"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="ship_unselect.png"/>
+                            <state key="selected" backgroundImage="ship_selectedbox.png"/>
+                            <connections>
+                                <action selector="btnCheckBoxRegisterNewsLetterAction:" destination="iN0-l3-epB" eventType="touchUpInside" id="0cB-x9-lh2"/>
+                            </connections>
+                        </button>
+                        <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="الاشتراك في النشرة البريدية" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Djs-3i-EXV">
+                            <rect key="frame" x="52" y="431.5" width="227" height="12"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="12" id="c0e-Me-VmQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="12"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ship_visa.png" translatesAutoresizingMaskIntoConstraints="NO" id="GYv-Hf-tP8">
+                            <rect key="frame" x="11" y="316.5" width="97" height="63"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="97" id="6og-nd-kqL"/>
+                                <constraint firstAttribute="height" constant="63" id="K0B-3Y-VP5"/>
+                            </constraints>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="7He-F8-3XR">
+                            <rect key="frame" x="19" y="124" width="39" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="i2U-fY-F20"/>
+                                <constraint firstAttribute="width" constant="39" id="iBx-Mh-8qB"/>
+                            </constraints>
+                        </imageView>
+                        <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="XX5-JP-W3e" customClass="PFKJVFloatLabeledTextField">
+                            <rect key="frame" x="138" y="285" width="158" height="23"/>
+                            <nil key="textColor"/>
+                            <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="13"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="67g-16-QGR">
+                            <rect key="frame" x="12" y="488.5" width="296" height="43"/>
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" secondItem="67g-16-QGR" secondAttribute="height" multiplier="117:17" id="eqs-sQ-beC">
+                                    <variation key="heightClass=regular-widthClass=regular" constant="390"/>
+                                </constraint>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QeL-d8-75h">
+                            <rect key="frame" x="13" y="234" width="291" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="ZTe-yf-eAQ"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="10"/>
+                            <color key="textColor" red="0.88379174469999999" green="0.35779404640000001" blue="0.32653915880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avX-Wr-Yqv">
+                            <rect key="frame" x="12" y="319" width="294" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="QHY-TY-d9e"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="10"/>
+                            <color key="textColor" red="0.88379174469999999" green="0.35779404640000001" blue="0.32653915880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lqx-xh-B8x">
+                            <rect key="frame" x="12" y="375.5" width="290" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="3x4-CJ-sGb"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="10"/>
+                            <color key="textColor" red="0.88379174469999999" green="0.35779404640000001" blue="0.32653915880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2mw-P4-tdi">
+                            <rect key="frame" x="13" y="154" width="291" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="R1Q-ty-QiA"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Raleway-Regular" family="Raleway" pointSize="10"/>
+                            <color key="textColor" red="0.88379174469999999" green="0.35779404640000001" blue="0.32653915880000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WtA-sa-dub">
+                            <rect key="frame" x="0.0" y="23" width="320" height="52"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FCB-BW-TbI">
+                                    <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
+                                    <constraints>
+                                        <constraint firstAttribute="width" constant="44" id="DOF-yu-Fuz"/>
+                                        <constraint firstAttribute="height" constant="44" id="v8b-Lk-92w"/>
+                                    </constraints>
+                                    <state key="normal" image="close.png"/>
+                                </button>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="بوابة الدفع الإلكتروني بيفورت" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bXd-af-xtX">
+                                    <rect key="frame" x="44.5" y="16" width="231" height="21"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="21" id="21f-tZ-XRF"/>
+                                        <constraint firstAttribute="width" constant="231" id="hA5-Yw-3b9"/>
+                                    </constraints>
+                                    <fontDescription key="fontDescription" name="Raleway-SemiBold" family="Raleway" pointSize="17"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="seperator.png" translatesAutoresizingMaskIntoConstraints="NO" id="PUY-FA-svf">
+                                    <rect key="frame" x="0.0" y="43" width="320" height="1"/>
+                                    <constraints>
+                                        <constraint firstAttribute="height" constant="1" id="VjF-GP-rT5"/>
+                                    </constraints>
+                                </imageView>
+                            </subviews>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="PUY-FA-svf" secondAttribute="bottom" constant="8" id="1FB-7K-2wV"/>
+                                <constraint firstItem="FCB-BW-TbI" firstAttribute="top" secondItem="WtA-sa-dub" secondAttribute="top" id="9G9-jE-VbC"/>
+                                <constraint firstItem="bXd-af-xtX" firstAttribute="centerX" secondItem="WtA-sa-dub" secondAttribute="centerX" id="BgX-iJ-spP"/>
+                                <constraint firstItem="bXd-af-xtX" firstAttribute="centerY" secondItem="WtA-sa-dub" secondAttribute="centerY" id="Uza-tT-qwb"/>
+                                <constraint firstItem="FCB-BW-TbI" firstAttribute="leading" secondItem="WtA-sa-dub" secondAttribute="leading" id="e1l-VF-yLx"/>
+                                <constraint firstItem="PUY-FA-svf" firstAttribute="leading" secondItem="WtA-sa-dub" secondAttribute="leading" id="i7p-NA-wG8"/>
+                                <constraint firstAttribute="trailing" secondItem="PUY-FA-svf" secondAttribute="trailing" id="lUg-Sk-St5"/>
+                                <constraint firstAttribute="height" constant="52" id="vI8-fG-4MA"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="رمز ال CVV*" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbb-nR-2S7">
+                            <rect key="frame" x="134" y="327" width="168" height="21"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="168" id="F3t-EB-H6I"/>
+                                <constraint firstAttribute="height" constant="21" id="ZEl-LR-Hfb"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="DroidArabicKufi" family="Droid Arabic Kufi" pointSize="15"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="WtA-sa-dub" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" id="1Vn-qe-QWk"/>
+                        <constraint firstItem="avX-Wr-Yqv" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" constant="12" id="31Y-wO-NSv"/>
+                        <constraint firstItem="WtA-sa-dub" firstAttribute="top" secondItem="ZpR-df-qku" secondAttribute="top" constant="23" id="4QC-hm-gbC"/>
+                        <constraint firstItem="F42-gs-qVP" firstAttribute="trailing" secondItem="bm1-ah-h0h" secondAttribute="trailing" constant="-9" id="4uh-qP-FLM"/>
+                        <constraint firstItem="0Db-JD-KUv" firstAttribute="leading" secondItem="KqY-nF-cSp" secondAttribute="trailing" constant="10" id="51e-ey-f70"/>
+                        <constraint firstItem="KqY-nF-cSp" firstAttribute="top" secondItem="lqx-xh-B8x" secondAttribute="bottom" constant="3" id="67g-9m-6Xf"/>
+                        <constraint firstItem="F42-gs-qVP" firstAttribute="top" secondItem="bm1-ah-h0h" secondAttribute="top" constant="5" id="6Mw-WJ-u2R"/>
+                        <constraint firstAttribute="trailing" secondItem="LTm-dt-sfd" secondAttribute="trailing" constant="16" id="7h4-ct-vY8"/>
+                        <constraint firstAttribute="trailing" secondItem="K20-8v-Opo" secondAttribute="trailing" constant="16" id="Ao2-36-CgR"/>
+                        <constraint firstAttribute="trailing" secondItem="WtA-sa-dub" secondAttribute="trailing" id="B6u-is-yFt"/>
+                        <constraint firstItem="zaW-Yc-KlT" firstAttribute="top" secondItem="WtA-sa-dub" secondAttribute="bottom" constant="22" id="Byu-Du-sND"/>
+                        <constraint firstAttribute="trailing" secondItem="Euz-Dv-cIk" secondAttribute="trailing" constant="19" id="C47-81-S1i"/>
+                        <constraint firstItem="K20-8v-Opo" firstAttribute="top" secondItem="2mw-P4-tdi" secondAttribute="bottom" constant="1" id="DJQ-mM-EDb"/>
+                        <constraint firstAttribute="trailing" secondItem="avX-Wr-Yqv" secondAttribute="trailing" constant="14" id="DK6-Ta-8Ou"/>
+                        <constraint firstItem="0Db-JD-KUv" firstAttribute="top" secondItem="lqx-xh-B8x" secondAttribute="bottom" constant="3" id="DPS-2D-Cb9"/>
+                        <constraint firstItem="F42-gs-qVP" firstAttribute="height" secondItem="bm1-ah-h0h" secondAttribute="height" constant="-12" id="EkF-bK-FG7"/>
+                        <constraint firstItem="KqY-nF-cSp" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" constant="51" id="EqY-NQ-ka7"/>
+                        <constraint firstAttribute="trailing" secondItem="0Db-JD-KUv" secondAttribute="trailing" constant="17" id="ErW-R3-IQg"/>
+                        <constraint firstAttribute="trailing" secondItem="klV-bd-v8y" secondAttribute="trailing" constant="17" id="FLI-su-vAk"/>
+                        <constraint firstAttribute="trailing" secondItem="4BK-mN-Efg" secondAttribute="trailing" constant="19" id="HCG-LG-Yyl"/>
+                        <constraint firstItem="F42-gs-qVP" firstAttribute="width" secondItem="bm1-ah-h0h" secondAttribute="width" constant="-18" id="ILO-Fe-jdY"/>
+                        <constraint firstItem="bm1-ah-h0h" firstAttribute="width" secondItem="LTm-dt-sfd" secondAttribute="width" id="IZ4-Ph-Cyi"/>
+                        <constraint firstItem="XX5-JP-W3e" firstAttribute="height" secondItem="LTm-dt-sfd" secondAttribute="height" constant="-8" id="Jm5-VL-w3v"/>
+                        <constraint firstItem="avX-Wr-Yqv" firstAttribute="top" secondItem="SMN-Cg-dfU" secondAttribute="bottom" constant="41" id="K7P-IT-hYh"/>
+                        <constraint firstItem="IUw-VU-rNv" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" constant="19" id="Kzo-yv-bcY"/>
+                        <constraint firstItem="4BK-mN-Efg" firstAttribute="top" secondItem="zaW-Yc-KlT" secondAttribute="bottom" constant="7" id="LDr-2T-1P9"/>
+                        <constraint firstItem="QeL-d8-75h" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" constant="13" id="LtK-8X-s4A"/>
+                        <constraint firstAttribute="trailing" secondItem="Kbb-nR-2S7" secondAttribute="trailing" constant="18" id="NLN-3f-Kmr"/>
+                        <constraint firstAttribute="trailing" secondItem="2mw-P4-tdi" secondAttribute="trailing" constant="16" id="OHb-lY-MRH"/>
+                        <constraint firstItem="Euz-Dv-cIk" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" constant="55" id="UEt-Yc-OIm"/>
+                        <constraint firstItem="7He-F8-3XR" firstAttribute="leading" secondItem="4BK-mN-Efg" secondAttribute="leading" id="UHH-th-XlI"/>
+                        <constraint firstAttribute="trailing" secondItem="PI3-AQ-tyu" secondAttribute="trailing" constant="11" id="UNQ-F8-HJT"/>
+                        <constraint firstItem="klV-bd-v8y" firstAttribute="top" secondItem="Euz-Dv-cIk" secondAttribute="bottom" constant="8" id="UYD-1i-VbZ"/>
+                        <constraint firstItem="4BK-mN-Efg" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" constant="19" id="UxB-aB-TgV"/>
+                        <constraint firstItem="2mw-P4-tdi" firstAttribute="top" secondItem="4BK-mN-Efg" secondAttribute="bottom" constant="1" id="Vfu-Lg-7AR"/>
+                        <constraint firstItem="bm1-ah-h0h" firstAttribute="top" secondItem="Kbb-nR-2S7" secondAttribute="bottom" constant="1" id="XBO-7X-247"/>
+                        <constraint firstItem="XX5-JP-W3e" firstAttribute="top" secondItem="LTm-dt-sfd" secondAttribute="top" constant="4" id="YOK-oA-Fqk"/>
+                        <constraint firstItem="lqx-xh-B8x" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" constant="12" id="aPB-v5-DN4"/>
+                        <constraint firstItem="bm1-ah-h0h" firstAttribute="leading" secondItem="GYv-Hf-tP8" secondAttribute="trailing" constant="12" id="dWN-8h-ND7"/>
+                        <constraint firstItem="ouZ-ej-lg1" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" constant="11" id="e2B-we-7GL"/>
+                        <constraint firstAttribute="trailing" secondItem="zaW-Yc-KlT" secondAttribute="trailing" constant="16" id="eCQ-Iw-7IK"/>
+                        <constraint firstItem="LTm-dt-sfd" firstAttribute="top" secondItem="SMN-Cg-dfU" secondAttribute="bottom" constant="3" id="eIg-RH-ByR"/>
+                        <constraint firstItem="Djs-3i-EXV" firstAttribute="top" secondItem="Euz-Dv-cIk" secondAttribute="bottom" constant="9" id="eoz-cY-3I3"/>
+                        <constraint firstItem="Euz-Dv-cIk" firstAttribute="top" secondItem="0Db-JD-KUv" secondAttribute="bottom" constant="7" id="fCq-2h-sPO"/>
+                        <constraint firstItem="LTm-dt-sfd" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" constant="120" id="fJu-5k-ROH"/>
+                        <constraint firstItem="K20-8v-Opo" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" constant="12" id="fMo-5k-IAm"/>
+                        <constraint firstItem="Kbb-nR-2S7" firstAttribute="top" secondItem="LTm-dt-sfd" secondAttribute="bottom" constant="15" id="gaE-8w-NH9"/>
+                        <constraint firstItem="Djs-3i-EXV" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" constant="52" id="jAJ-Ug-ikN"/>
+                        <constraint firstItem="QeL-d8-75h" firstAttribute="top" secondItem="IUw-VU-rNv" secondAttribute="bottom" constant="2" id="jSw-QU-Lex"/>
+                        <constraint firstItem="PI3-AQ-tyu" firstAttribute="top" secondItem="zaW-Yc-KlT" secondAttribute="bottom" constant="3" id="jeu-KX-Iqq"/>
+                        <constraint firstAttribute="trailing" secondItem="ouZ-ej-lg1" secondAttribute="trailing" constant="12" id="l1X-8R-hf8"/>
+                        <constraint firstItem="67g-16-QGR" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" constant="12" id="l9i-aW-E1T"/>
+                        <constraint firstAttribute="trailing" secondItem="lqx-xh-B8x" secondAttribute="trailing" constant="18" id="lYb-Pl-64R"/>
+                        <constraint firstAttribute="trailing" secondItem="SMN-Cg-dfU" secondAttribute="trailing" constant="16" id="n1A-nO-uY1"/>
+                        <constraint firstItem="67g-16-QGR" firstAttribute="top" secondItem="klV-bd-v8y" secondAttribute="bottom" constant="43" id="nO5-c2-EP9"/>
+                        <constraint firstAttribute="trailing" secondItem="QeL-d8-75h" secondAttribute="trailing" constant="16" id="oOq-dC-WZO"/>
+                        <constraint firstItem="lqx-xh-B8x" firstAttribute="top" secondItem="bm1-ah-h0h" secondAttribute="bottom" constant="-4" id="pwF-YX-QmL"/>
+                        <constraint firstItem="ouZ-ej-lg1" firstAttribute="top" secondItem="K20-8v-Opo" secondAttribute="bottom" constant="4" id="r1h-Lo-qb0"/>
+                        <constraint firstItem="SMN-Cg-dfU" firstAttribute="top" secondItem="QeL-d8-75h" secondAttribute="bottom" constant="2" id="r3q-do-EnA"/>
+                        <constraint firstAttribute="trailing" secondItem="bm1-ah-h0h" secondAttribute="trailing" constant="16" id="r9v-1r-y74"/>
+                        <constraint firstItem="klV-bd-v8y" firstAttribute="leading" secondItem="Djs-3i-EXV" secondAttribute="trailing" constant="9" id="rPD-WG-MwD"/>
+                        <constraint firstItem="7He-F8-3XR" firstAttribute="centerY" secondItem="PI3-AQ-tyu" secondAttribute="centerY" id="tRd-hX-cSI"/>
+                        <constraint firstAttribute="trailing" secondItem="67g-16-QGR" secondAttribute="trailing" constant="12" id="usJ-Ty-Lzx"/>
+                        <constraint firstItem="XX5-JP-W3e" firstAttribute="trailing" secondItem="LTm-dt-sfd" secondAttribute="trailing" constant="-8" id="v2U-Vt-ZJm"/>
+                        <constraint firstAttribute="trailing" secondItem="IUw-VU-rNv" secondAttribute="trailing" constant="19" id="v3e-2X-S8C"/>
+                        <constraint firstItem="2mw-P4-tdi" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" constant="13" id="v4O-Y9-nSw"/>
+                        <constraint firstItem="XX5-JP-W3e" firstAttribute="width" secondItem="LTm-dt-sfd" secondAttribute="width" constant="-26" id="vA8-tb-xkv"/>
+                        <constraint firstItem="IUw-VU-rNv" firstAttribute="top" secondItem="K20-8v-Opo" secondAttribute="bottom" constant="8" id="vCq-ia-Us4"/>
+                        <constraint firstAttribute="trailing" secondItem="LTm-dt-sfd" secondAttribute="trailing" constant="16" id="vqR-lw-1V8"/>
+                        <constraint firstItem="GYv-Hf-tP8" firstAttribute="bottom" secondItem="bm1-ah-h0h" secondAttribute="bottom" id="z3r-dT-W9T"/>
+                        <constraint firstItem="PI3-AQ-tyu" firstAttribute="leading" secondItem="ZpR-df-qku" secondAttribute="leading" constant="12" id="zBx-4U-2U6"/>
+                        <constraint firstItem="bm1-ah-h0h" firstAttribute="height" secondItem="LTm-dt-sfd" secondAttribute="height" id="zfd-B7-T14"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ZpR-df-qku" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="0NA-SE-IGR"/>
+                <constraint firstAttribute="trailing" secondItem="ZpR-df-qku" secondAttribute="trailing" id="H1o-Jl-Mde"/>
+                <constraint firstAttribute="bottom" secondItem="ZpR-df-qku" secondAttribute="bottom" id="l5A-wP-bis"/>
+                <constraint firstItem="ZpR-df-qku" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="uaP-wc-75W"/>
+            </constraints>
+            <connections>
+                <outlet property="BackBtn" destination="FCB-BW-TbI" id="LVZ-PN-3Kk"/>
+                <outlet property="CVCNumberTxt" destination="F42-gs-qVP" id="F0Q-DF-YNr"/>
+                <outlet property="CardNameTxt" destination="IUw-VU-rNv" id="2h0-sq-g6J"/>
+                <outlet property="CardNumberTxt" destination="4BK-mN-Efg" id="fK6-bH-U3L"/>
+                <outlet property="ExpDateTxt" destination="XX5-JP-W3e" id="3lS-xp-71p"/>
+                <outlet property="cVCNumberErrorlbl" destination="lqx-xh-B8x" id="2NC-tA-DFe"/>
+                <outlet property="cardNumberErrorlbl" destination="2mw-P4-tdi" id="LqD-x3-s2e"/>
+                <outlet property="expDateErrorlbl" destination="avX-Wr-Yqv" id="oY0-AU-J9r"/>
+                <outlet property="paymentBtn" destination="67g-16-QGR" id="Swg-Bz-PxJ"/>
+            </connections>
+            <point key="canvasLocation" x="33" y="85"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close.png" width="12" height="12"/>
+        <image name="seperator.png" width="258" height="1"/>
+        <image name="ship_name.png" width="302" height="28"/>
+        <image name="ship_selectedbox.png" width="12" height="12"/>
+        <image name="ship_unselect.png" width="12" height="12"/>
+        <image name="ship_visa.png" width="76" height="47"/>
+    </resources>
+</document>

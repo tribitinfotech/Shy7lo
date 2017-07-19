@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16D30" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="iN0-l3-epB" customClass="StarshipHeader" customModule="Shy7lo" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5fA-ZZ-wFi">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" ambiguous="YES" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oOT-gU-Fvc">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="oOT-gU-Fvc" secondAttribute="trailing" id="0jr-Fi-oQz"/>
+                        <constraint firstItem="oOT-gU-Fvc" firstAttribute="leading" secondItem="5fA-ZZ-wFi" secondAttribute="leading" id="4dM-7l-idu"/>
+                        <constraint firstAttribute="bottom" secondItem="oOT-gU-Fvc" secondAttribute="bottom" id="Ctz-C9-aty"/>
+                        <constraint firstItem="oOT-gU-Fvc" firstAttribute="top" secondItem="5fA-ZZ-wFi" secondAttribute="top" id="mXX-0Y-ZOS"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="Scg-La-ool"/>
+                    </connections>
+                </scrollView>
+                <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="SLc-tz-bwA">
+                    <rect key="frame" x="35" y="523" width="305" height="37"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="305" id="TTT-HV-O3w"/>
+                        <constraint firstAttribute="height" constant="37" id="fy4-RK-Iz9"/>
+                    </constraints>
+                    <color key="pageIndicatorTintColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="currentPageIndicatorTintColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                </pageControl>
+            </subviews>
+            <color key="backgroundColor" red="0.99607843139999996" green="0.99215686270000003" blue="0.94117647059999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="5fA-ZZ-wFi" secondAttribute="bottom" id="2hV-Ft-XYv"/>
+                <constraint firstItem="SLc-tz-bwA" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" constant="208" id="5uw-pj-E63"/>
+                <constraint firstItem="SLc-tz-bwA" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="BdP-hR-d1S"/>
+                <constraint firstItem="5fA-ZZ-wFi" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="dPg-8z-llQ"/>
+                <constraint firstAttribute="trailing" secondItem="5fA-ZZ-wFi" secondAttribute="trailing" id="gFp-lP-ks5"/>
+                <constraint firstItem="5fA-ZZ-wFi" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rWA-Of-TEy"/>
+            </constraints>
+            <connections>
+                <outlet property="pageCntrl" destination="SLc-tz-bwA" id="2JB-Zu-UZB"/>
+                <outlet property="pageCntrlY" destination="5uw-pj-E63" id="W0Y-8M-Io5"/>
+                <outlet property="scrlProductImages" destination="5fA-ZZ-wFi" id="4y8-Ld-BN4"/>
+                <outlet property="viewInScroll" destination="oOT-gU-Fvc" id="e11-zF-CXg"/>
+            </connections>
+            <point key="canvasLocation" x="-161.5" y="14.5"/>
+        </view>
+    </objects>
+</document>
